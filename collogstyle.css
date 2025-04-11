@@ -11,7 +11,7 @@
     margin-top: -6%;
     margin-bottom: 3%;
     margin-left: 10%;
-    color: rgb(17, 96, 17);
+    color: green;
 }
 
 body{
@@ -20,16 +20,16 @@ body{
     display:flex;
     justify-content:center;
     align-items: center;
-    background: rgb(25, 101, 232);
+    background:linear-gradient(to right,rgb(252, 162, 52),rgba(0, 171, 250, 0.774));
 }
 
 form{
     width: 30rem;
-    height: 35rem;
+    height: 33rem;
     display: flex;
     flex-direction: column;
-    background: rgb(240, 235, 235);
-    box-shadow: 0 5px 10px black;
+    background: rgba(255, 255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
     border-radius: 30px;
     border-left: 1px solid rgba(255, 255,255,.3);
     border-top: 1px solid rgba(255, 255,255,.3); 
@@ -58,8 +58,9 @@ input {
     margin-left: 10%;
     border: none;
     outline: none;
-    padding: 10px;
-    border-radius: 10px;
+    background: transparent;
+    color: black;
+    border-bottom: 1px solid rgba(255, 255,255,0.6);
 }
 #button{
     width: 30%;
