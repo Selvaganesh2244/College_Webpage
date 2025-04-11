@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Validation</title>
+    <link rel="stylesheet" href="collogstyle.css">
+    <script src="collogscript.js"></script>
+</head>
+<body>
+
+    <form id="registrationForm" onsubmit="return validateForm()" action="/new college website/home.html">
+        <h2>LOG IN</h2>
+        <div class="form-group">
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" placeholder="enter name">
+            <span id="usernameError" class="error"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password">
+            <span id="passwordError" class="error"></span>
+            <span id="uppercaseError" class="error"></span>
+            <span id="lowercaseError" class="error"></span>
+            <span id="specialCharError" class="error"></span>
+        </div>
+        <input id="button" type="submit" value="Login" onclick="validateForm()"><br>
+        <a>Forget Password?</a>
+    </form>
+
+</body>
+</html>

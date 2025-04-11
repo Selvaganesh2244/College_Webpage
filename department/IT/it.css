@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(5, 153, 44) !important;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid  rgb(5, 153, 44) ;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-light .navbar-nav .dropdown-menu {
+    background-color: black;
+}
+.navbar-light .navbar-nav .dropdown-menu a:hover {
+    background: rgba(255, 255,255,0.06);
+}
+#about-it{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)), url(https://f.hubspotusercontent10.net/hubfs/6448316/cybersecurity-computer-science.jpg);
+    font-family:'Times New Roman', Times, serif;
+}
+#about-it h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 4px 5px rgba(0,0,0,.8);
+}
+#about-it h3{
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 4px 5px rgba(0,0,0,.8);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#about-it img{
+    border-radius: 30px;
+}
+#about-it p{
+    margin-left: 70px;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+#about-it li{
+    color: white;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background: rgb(201, 199, 199) !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 90px;
+}
+.card:hover{
+    box-shadow: inset 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
